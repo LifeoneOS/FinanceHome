@@ -1,6 +1,6 @@
 {
-  "versionCode": 101,
-  "versionName": "0.61.1-pilot",
+  "versionCode": 102,
+  "versionName": "0.61.2-pilot",
   "downloadUrl": "https://raw.githubusercontent.com/LifeoneOS/FinanceHome/main/distribution/app-latest.apk",
-  "notes": "Fixes the AI assistant/insights/chat not working at all - the free AI model this app used was discontinued upstream, switched to a currently-live free model."
+  "notes": "Moves distribution/download links to a new home (LifeoneOS/FinanceHome) - no personal name in the link anymore. No functional app changes in this release."
 }
