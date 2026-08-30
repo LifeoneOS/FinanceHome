@@ -1,6 +1,6 @@
 {
-  "versionCode": 102,
-  "versionName": "0.61.2-pilot",
+  "versionCode": 103,
+  "versionName": "0.61.3-pilot",
   "downloadUrl": "https://raw.githubusercontent.com/LifeoneOS/FinanceHome/main/distribution/app-latest.apk",
-  "notes": "Moves distribution/download links to a new home (LifeoneOS/FinanceHome) - no personal name in the link anymore. No functional app changes in this release."
+  "notes": "Fixes manually-entered expenses never showing up in Family Expenses - the sync to your family only ever ran for auto-captured SMS transactions, never for manual entries."
 }
