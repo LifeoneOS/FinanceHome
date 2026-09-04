@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delete Your Account & Data - LifeOS Money</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0B0F0E; color: #F3F5F4;
+    font-family: -apple-system, Roboto, "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .updated { color: #93A19B; font-size: 14px; margin-bottom: 40px; }
+  h2 { font-size: 19px; margin-top: 40px; margin-bottom: 12px; color: #2EDDA6; }
+  p, li { color: #D7DBDA; font-size: 15px; }
+  ol, ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  .callout {
+    background: #151C1A; border-radius: 16px; padding: 16px 20px; margin: 16px 0;
+    border-left: 3px solid #2EDDA6;
+  }
+  a { color: #2EDDA6; }
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #2A312F; color: #93A19B; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Delete Your Account &amp; Data</h1>
+  <div class="updated">LifeOS Money &middot; Last updated: <strong>4 September 2026</strong></div>
+
+  <p>
+    LifeOS Money stores most of your data locally on your device by default. This page explains
+    how to delete that data, and how to remove any additional data stored on our servers if you've
+    used Family Sharing or Smart Split.
+  </p>
+
+  <h2>1. Delete everything stored on your device</h2>
+  <p>In the app:</p>
+  <ol>
+    <li>Open <strong>Profile</strong></li>
+    <li>Scroll to the <strong>"Danger Zone"</strong> section</li>
+    <li>Tap <strong>"Clear All My Data and Log Out"</strong></li>
+    <li>Confirm</li>
+  </ol>
+  <p>
+    This immediately and permanently deletes every transaction, budget, goal, habit, task,
+    subscription, bill, categorization rule, and local profile detail (name/photo) stored on your
+    device, and signs you out of Family Sharing/Smart Split if you were signed in. This step alone
+    does not remove your Family Sharing profile or membership record from our servers - see the
+    next section for that.
+  </p>
+
+  <h2>2. Remove your Family Sharing membership from our servers</h2>
+  <p>If you've joined a Family, do this to remove your membership and profile from it:</p>
+  <ol>
+    <li>Open <strong>Family &gt; Members</strong></li>
+    <li>Tap the <strong>Leave</strong> icon</li>
+    <li>Confirm</li>
+  </ol>
+  <p>
+    This removes your membership and profile details from that Family's shared data on our
+    servers (Google Firebase).
+  </p>
+
+  <h2>3. Request deletion of all remaining data on our servers</h2>
+  <p>
+    To request full deletion of any data still associated with you on our servers - including
+    Smart Split history, and any Family Sharing content not covered by the steps above - email
+    us:
+  </p>
+  <div class="callout">
+    <a href="mailto:lifeoscapture@gmail.com">lifeoscapture@gmail.com</a><br />
+    Subject: <strong>Delete my account</strong><br />
+    Include the phone number or Google account you used with the app.
+  </div>
+  <p>
+    We will locate and permanently delete the associated data within <strong>30 days</strong> of
+    receiving your request, and confirm by email once it's done.
+  </p>
+
+  <h2>What's retained</h2>
+  <p>
+    Nothing beyond what's needed to process the deletion request itself (e.g. a record that a
+    request was received and completed, containing no financial data). Crash/diagnostic logs
+    (Firebase Crashlytics) that don't identify you personally may be retained per Google's own
+    Crashlytics retention policy, separate from your account data.
+  </p>
+
+  <div class="footer">
+    See the full <a href="../privacy/">Privacy Policy</a> for what data is collected and why.
+  </div>
+</div>
+</body>
+</html>
